@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="weather-api">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt>1437078978058</CreatedAt>
+    <CreatedBy>equinix_lab@equinix.com</CreatedBy>
+    <Description>Yahoo Weather Proxy</Description>
+    <DisplayName>weather-api</DisplayName>
+    <LastModifiedAt>1437078978058</LastModifiedAt>
+    <LastModifiedBy>equinix_lab@equinix.com</LastModifiedBy>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Spike-Arrest-1</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
