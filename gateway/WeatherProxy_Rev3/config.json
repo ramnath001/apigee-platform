@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "test",
+            "policies": [
+                
+            ],
+            "proxies": [
+                
+            ],
+            "targets": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "http://weather.yahooapis.com"
+                        }
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}
